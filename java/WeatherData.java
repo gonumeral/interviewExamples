@@ -8,7 +8,7 @@ import org.json.JSONObject;
 
 public class WeatherData {
     public static void main(String[] args) {
-        String openWeatherKey = "42549e790dc5be9f25740b93acb26413";
+        String openWeatherKey = "MY_API_KEY";
         String geoTagUrl = "http://api.openweathermap.org/geo/1.0/direct?q=San Francisco&appid=" + openWeatherKey;
         try {
             URL url = new URL(geoTagUrl);
